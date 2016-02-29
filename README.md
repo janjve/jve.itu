@@ -11,5 +11,5 @@
 - [Week 3 - Classification](3_Data_Mining/Week_3_Classification.md)
 - [Week 4 - Pattern mining 1](3_Data_Mining/Week_4_Pattern_Mining_1.md)
 
-###Intelligent Systems Programming (Spring 2016)
+###Intelligent Systems Programming (Spring 2016) 
 - [Week 4 - Logical agents](4_Intelligent_Systems_Programming/Week_4_Logical_agents.md)
