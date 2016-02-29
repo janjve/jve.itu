@@ -92,7 +92,7 @@ Now there's just left to find the rules also satisfying the minimum confidence t
 
 More generally:
 >1. For each frequent itemset l, generate all nonempty subsets of l.
->2. For every nonempty subset s of l, output the rule “s⇒(l−s)” if support_count(l)/support_count(s) ≥ min_conf, where min_conf is the minimum conﬁdence threshold.
+>2. For every nonempty subset s of l, output the rule “s => (l−s)” if support_count(l)/support_count(s) ≥ min_conf, where min_conf is the minimum conﬁdence threshold.
 
 ##Improving the apriori algorithm
 These are a tradeoff between accuracy and performance.
@@ -140,6 +140,6 @@ The book recommands using Kulczynski together with IR.
 - FP_tree
 - Eclat
 - two-level hash index structure
-- x^2 (chi)
+- x<sup>2</sup> (chi squared)
 
 
