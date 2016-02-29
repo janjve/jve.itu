@@ -74,16 +74,16 @@ The finding of each L<sub>k</sub> requires a ful scan of the dataset D.
 Example:
 
 Data:  
-![Apriori_ex_data](Images\Apriori_ex_data.PNG "Apriori_ex_data")
+![Apriori_ex_data](Images/Apriori_ex_data.PNG "Apriori_ex_data")
 
 Example:  
-![Apriori](Images\Apriori.PNG "Apriori")
+![Apriori](Images/Apriori.PNG "Apriori")
 
 Join:  
-![Apriori_join](Images\Apriori_join.PNG "Apriori_join")
+![Apriori_join](Images/Apriori_join.PNG "Apriori_join")
 
 Pseudo code:  
-![Apriori_pseudo](Images\Apriori_pseudo.PNG "Apriori_pseudo")
+![Apriori_pseudo](Images/Apriori_pseudo.PNG "Apriori_pseudo")
 
 
 ##Generating association rules from frequent itemsets
