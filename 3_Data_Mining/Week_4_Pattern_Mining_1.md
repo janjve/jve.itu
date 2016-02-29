@@ -110,7 +110,7 @@ Another approach is using `vertical data format`. That is having set of items co
 Finding itemsets that share transaction is as simple as taking the intersection between them.
 
 Example:  
-![FP_Growth](Images\FP_Growth.PNG "FP_Growth")
+![FP_Growth](Images/FP_Growth.PNG "FP_Growth")
 
 - Can be improved using `diffset` on items since the transaction set of each item often gets very large. 
 
