@@ -1,4 +1,5 @@
 ###System Architecture and Security (Spring 2016)
+- [Week 1 - Security principles](1_System_Architecture_and_Security/Week_1_Security_principles.md)
 - [Week 5 - Authentication & Access Control; Logging](1_System_Architecture_and_Security/Week_5_Authentication_access_control_and_logging.md)
 
 ###Advanced Computing (Spring 2016)
