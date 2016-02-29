@@ -1,0 +1,3 @@
+Purely functional state
+=======================
+
