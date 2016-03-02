@@ -9,10 +9,10 @@ print s
 
 
 ##Image:
-![alt text](Images\url "Some alt text")
+![alt text](Images/url "Some alt text")
 
 ##some url:
-[alt text](Images\url "Some alt text")
+[alt text](Images/url "Some alt text")
 
 
 ##Lists
