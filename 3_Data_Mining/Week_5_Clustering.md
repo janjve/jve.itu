@@ -61,4 +61,3 @@ of senior ofﬁcers, ofﬁcers, andtrainees.Allthesegroupsformahierarchy
     - two clusters are merged if their interconnectivity is high and they are close together. Thus, Chameleon does not depend on a static, user-supplied model and can automatically adapt to the internal characteristics of the clusters being merged
 
 - Probabilistic Hierarchical Clustering 
-    - ??????????
