@@ -38,3 +38,43 @@
 - Undersampling
     -  Original traningset is 100 positive tuples and 1000 negative
         - decrease trainingset to 100 positive and 100 negtive 
+        
+
+## Lecture - cluster
+
+- Unsupervised proces
+- Good clustering:
+    - High intra-class simlularity
+    - low inter-class simulatiry
+- dissimilarity/similarity metrics:
+    - distance function (between two items)
+        - depend on the datatype (bool? numeric?)
+- Requirements:
+    - Scalability
+    - ability to deal with different types of attributes
+        - numerical
+        - binary
+        - nominal, ordinal
+        - mixed types
+    - Dynamic data
+    - cluster Shape
+    - Noise/outliers
+    - Shouldn't depend on input order of input records
+    - high dimensionality
+    - Incorporation of user-specified constaints
+    - interpretability and usability
+    - ... (slides)
+- Goal: how simular are tuples?
+    - Dissimilarity matrix
+- Normalize before using clustering algorithm (length, weight to 0..1).
+    - z-score
+- Manhatten distance (pytagoras)
+- variable distance:
+    - binary
+        - hamming
+            - count the distance.
+    - nominal
+        - Simple matching
+            - Is this 1 yellow and is 2 yellow?
+    - Mixed types:
+        - weighted formula to calculate distance 
