@@ -1,4 +1,7 @@
 ## Ensemble methods
+
+![Ensemble_model.PNG](Images/Ensemble_model.PNG)
+
 - Use multiple classifiers and use the class most picked for each tuple
 - Methods:
     - Bagging
