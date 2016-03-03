@@ -13,3 +13,5 @@
 
 ###Intelligent Systems Programming (Spring 2016)
 - [Week 4 - Logical agents](4_Intelligent_Systems_Programming/Week_4_Logical_agents.md)
+- [Week 5 - Binary decision tree](4_Intelligent_Systems_Programming/Week_5_Binary_decision_diagram.md)
+
