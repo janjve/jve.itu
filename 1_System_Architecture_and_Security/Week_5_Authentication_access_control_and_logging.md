@@ -41,8 +41,9 @@ buffer overflow attack
     - Non-reputable
         - A principle cannot disavoew succesful authentification.
 2. 2-factor authentication
-    - Something you know + something you have
+    - Something you know + something you have + (something you are)
         - nemId: password + checkcard
+        - something you are can be hard to revoke
 3. Certificates
     - Use public key to verify is signed by CA private key.
 4. Phone fingerprint

@@ -1,6 +1,11 @@
+Web application security
+========================
 Lecture
-=======
--
+-------
+- 
+
+
+
 
 Under læsning:
 ==============
@@ -24,7 +29,7 @@ Black box
         - mennesker med vilje
         - natural, så som jordskæl, brand, osv.
 attack vectors:
-    - Er en vej eller måde hvorpå en hacker kan opnå adgang til en computer eller server for at udfører et ondsindet angreb. 
+    - Er en vej eller måde hvorpå en hacker opnår adgang til en computer eller server for at udfører et ondsindet angreb. 
 security weakness:
     - hvorfor findes denne sårbarhed og hvordan kan de findes? 
 technical impact:
@@ -41,7 +46,8 @@ business impact:
 3. cross-site-scription (XSS)
     - execute scripts in the users browser.
 4. Insecure direct object references
-    - A direct object reference occurs when a developer exposes a reference to an internal implementation object, such as a file, directory, or database key. Without an access control check or other protection
+    - A direct object reference occurs when a developer exposes a reference to an internal implementation object, such as a file, directory, or database key.
+    Without an access control check or other protection
 5. Security misconfiguration
     - fejl i konfigurering af f.eks. frameworks
 6. sensitive data exposure
@@ -58,6 +64,7 @@ business impact:
 10. Unvalidated redirects and forwards
     - adversaries kan redirect brugere til malware sites, som f.eks. via en facebook post.
     
+
 ### problem 6.3
 - Input tags
 - form tags
@@ -76,7 +83,7 @@ VirtueMart version 1.1.2 and below is vulnerable to simple SQL injections
     - '--
     - ' or '1'='1
     - vil resultere i sql strings som:
-        - 'SELECT * FROM users WHERE username =’-- <some sql>.
+        - 'SELECT * FROM users WHERE username =1=1; SELECT * FROM jos.users;--’--.
         - 'SELECT * FROM users WHERE username =’’ or ’1’=’1’'.
         
 ### problem 6.13
