@@ -13,6 +13,8 @@ Examples of non-strict expression in most programming languages include `if(e)`,
 
 ###=> syntax
 The `a: => A` syntax will delay the evaluation of `a`.
+- This is also called `Call-by-Name` argument style. 
+- The opposit of this is `Call-by-value` which is the usual approach of `a: A`
 
 **example 1:** 
 Notice the `=> A` syntax means the function `onTrue` is not evaluated before being called. 
@@ -32,6 +34,41 @@ def exists(p: A => Boolean): Boolean = this match {
     case Cons(h, t) => p(h()) || t().exists(p)
     case _ => false
 }
+```
+#### Example:
+```scala
+def something() = {
+  println("calling something")
+  1 // return value
+}
+```
+Now we are going to define two function that accept Int arguments 
+that are exactly the same except that one takes the argument in a
+call-by-value style (x: Int) and the other in a call-by-name style (x: => Int).
+```scala
+def callByValue(x: Int) = {
+  println("x1=" + x)
+  println("x2=" + x)
+}
+
+def callByName(x: => Int) = {
+  println("x1=" + x)
+  println("x2=" + x)
+}
+```
+
+Now what happens when we call them with our side-effecting function?
+```scala
+scala> callByValue(something())
+calling something
+x1=1
+x2=1
+
+scala> callByName(something())
+calling something
+x1=1
+calling something
+x2=1
 ```
 
 ###Lazy keyword

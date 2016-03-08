@@ -1,6 +1,5 @@
 State in purely functional programs
 =======================
-
 # Alternate solutions to lecture exercises
  1) The exercise doesn't state that the numbers should be consecutively even.
  
