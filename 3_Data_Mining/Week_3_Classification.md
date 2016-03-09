@@ -18,3 +18,8 @@ Classification rules tests på “test data” ->  klassifisere reglerne stadig 
 
 Attribute selection measures:
 Split up into partitions (preferably pure) according to the outcomes of the splitting criterion.
+
+
+
+- K-nearest neighbor
+- 

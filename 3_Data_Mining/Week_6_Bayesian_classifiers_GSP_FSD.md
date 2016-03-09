@@ -1,4 +1,5 @@
-===
+Bayesian classifiers
+===================
 - Bayesian classifiers (cph. 8.3)
     - Bayesian classiﬁers are statistical classiﬁers. 
      They can predict class membership probabilities such as the probability that a given tuple belongs to a particular class. 
@@ -33,6 +34,8 @@
 
 
 
+Bayesian belief network
+======================
 
 - Bayesian belief network (9.1)
     - unlike naïve Bayesian classiﬁers, allow the representation of dependencies among subsets of attributes.
@@ -47,6 +50,8 @@
 
 ![Bayesian_belief_network.PNG](Images/Bayesian_belief_network.PNG)
 
+Generalized sequence pattern
+===========================
 - Generalized sequence pattern (GSP)
     - candidate generation
         - join/prune phase
@@ -57,5 +62,7 @@
         - forward phase
         - backward phase
 
+ Frequent subgraph discovery
+ ===========================
 - Frequent subgraph discovery (FSD)
     - 
