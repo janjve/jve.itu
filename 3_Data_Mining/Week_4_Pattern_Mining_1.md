@@ -1,4 +1,4 @@
-Pattern Mining 1
+Assossiation Pattern Mining 1
 ================
 
 D = dataset.
